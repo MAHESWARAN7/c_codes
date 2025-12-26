@@ -1,1 +1,16 @@
+#include<stdio.h>
+int main() {
+    int num = 255;
+    float fnum = 123.456789;
+    char ch = 'A';
+    char str[] = "Hello, World!";
 
+    // Using different format specifiers
+    printf("Integer: %d\n", num);               // %d for integer
+    printf("Hexadecimal: %x\n", num);           // %x for hexadecimal
+    printf("Floating point: %.2f\n", fnum);     // %.2f for float with 2 decimal places
+    printf("Character: %c\n", ch);              // %c for character
+    printf("String: %s\n", str);                 // %s for string
+
+    return 0;
+}
