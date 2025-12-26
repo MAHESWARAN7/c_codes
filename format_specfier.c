@@ -5,7 +5,7 @@ int main() {
     int numa = 1000;
     int numb = 10000;
     int numc = 100000;
-    float fnum = 123.456789;
+    float fnum = 123.45456;
     char ch = 'A';
     char str[] = "Hello, World!";
 
