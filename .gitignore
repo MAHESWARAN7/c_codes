@@ -1,0 +1,8 @@
+# Ignore everything inside the c_codes folder
+c_codes/*
+
+# But DO NOT ignore C source files
+!c_codes/*.c
+
+# But DO NOT ignore header files (if you use them later)
+!c_codes/*.h
