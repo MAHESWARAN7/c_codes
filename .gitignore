@@ -1,8 +1,6 @@
-# Ignore everything inside the c_codes folder
-c_codes/*
-
-# But DO NOT ignore C source files
-!c_codes/*.c
-
-# But DO NOT ignore header files (if you use them later)
-!c_codes/*.h
+# Ignore all files with no extension (the binaries)
+*
+# Except for the .c files
+!*.c
+# Except for the .gitignore itself
+!.gitignore
