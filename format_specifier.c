@@ -3,8 +3,8 @@ int main() {
     
     int num = 255;
     int numa = 1000;
-    int numb = -10000;
-    int numc = 100000;
+    int numb = 1000;
+    int numc = 10000;
     float fnum = 123.45456;
     char ch = 'A';
     char str[] = "Hello, World!";
