@@ -7,12 +7,12 @@ int computerchoise();
 void checkwinner(int userc , int computer);
 int main(){
    
-    srand(time(NULL));
+    srand(time(NULL));// to generate random number 
     
     printf("_____rock paper sissor _____");
 
     int computer =computerchoise();
-    int userc = userchoise();
+    int userc = userchoise(); 
     
     
     
@@ -58,7 +58,7 @@ return 0;
 
 int computerchoise(){
     
-      return (rand()%3)+1;
+      return (rand()%4)-1;
       
      
 }
