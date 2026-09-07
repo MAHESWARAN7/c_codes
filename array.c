@@ -13,7 +13,7 @@ int size = sizeof(sample) / sizeof(sample[0]);
     //printf("%c\n", vowels[i]);
     
    }
-   printf("size of array %d\n", size);
+   printf("size of array %d\n", size); //mahes
     
 
 
